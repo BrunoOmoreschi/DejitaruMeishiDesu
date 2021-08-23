@@ -8,15 +8,31 @@
     tools:context=".ui.MainActivity">
 
     <TextView
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_title_txt"
+        android:textColor="@color/pamonha"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        tools:itemCount="8"
+        tools:layout_editor_absoluteX="16dp"
+        tools:listitem="@layout/item_bc" />
+
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/ib_Close"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_gravity="bottom|end"
@@ -25,10 +41,12 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/ic_icons8_mais"
         android:backgroundTint="@color/material_on_primary_disabled"
+        android:contentDescription="Botão adicionar"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_icons8_mais"
-        android:contentDescription = "Botão adicionar"/>
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

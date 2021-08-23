@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Dejitaru Meishi Desu</string>
+    <string name="app_name">Cartão de Visitas Digital</string>
+    <string name="tv_title_txt">Cartão de visita</string>
+    <string name="tv_Addtitle_txt">Novo Cartão</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Digital Busines Card</string>
+    <string name="tv_title_txt">Busines Card</string>
+    <string name="tv_Addtitle_txt">New Card</string>
+</resources>

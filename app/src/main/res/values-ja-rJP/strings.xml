@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" デジタル名刺 "</string>
+    <string name="tv_title_txt">名刺</string>
+    <string name="tv_Addtitle_txt">新しい名刺</string>
+</resources>
