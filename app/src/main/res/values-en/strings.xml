@@ -3,4 +3,13 @@
     <string name="app_name">Digital Busines Card</string>
     <string name="tv_title_txt">Busines Card</string>
     <string name="tv_Addtitle_txt">New Card</string>
+    <string name="btConfirmar_desc">Confirm Button</string>
+    <string name="btConfirmar_txt">Confirm</string>
+    <string name="btFechar_desc">Close Button</string>
+    <string name="tvAddTitle_desc">Activity Title</string>
+    <string name="etName_hint">Full Name</string>
+    <string name="etPhone_hint">Phone</string>
+    <string name="etEmail_hint">Email</string>
+    <string name="etCompany_hint">Company</string>
+    <string name="apelido_hint">Nickname</string>
 </resources>

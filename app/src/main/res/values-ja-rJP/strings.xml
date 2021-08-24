@@ -3,4 +3,13 @@
     <string name="app_name">" デジタル名刺 "</string>
     <string name="tv_title_txt">名刺</string>
     <string name="tv_Addtitle_txt">新しい名刺</string>
+    <string name="etCompany_hint">会社</string>
+    <string name="etEmail_hint">Eメール</string>
+    <string name="apelido_hint">偽名</string>
+    <string name="etPhone_hint">電話</string>
+    <string name="etName_hint">名前</string>
+    <string name="btConfirmar_desc">確認ボタン</string>
+    <string name="btConfirmar_txt">確認</string>
+    <string name="btFechar_desc">閉じるボタン</string>
+    <string name="tvAddTitle_desc">ウェブサイト名</string>
 </resources>

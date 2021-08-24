@@ -1,11 +1,17 @@
 package com.github.brunoomoreshi.dejitarumeishidesu.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.github.brunoomoreshi.dejitarumeishidesu.R
+
+
 
 class AddBusinessCardAc : AppCompatActivity() {
+
+    //private val binding by lazy { AddBusinessCardAc.inflate(layoutInflater)}
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_add_business_card)
+        setContentView(R.layout.AddBusinessCardAc)
     }
 }
