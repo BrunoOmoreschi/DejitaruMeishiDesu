@@ -17,6 +17,20 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+    @Test
+    fun test_add_new_contact(){
+        TODO("to be implemented")
+    }
+
+    @Test
+    fun test_mockup_list(){
+        TODO("to be implemented")
+    }
+
+    @Test
+    fun test_send_by_social_media(){
+        TODO("to be implemented")
+    }
 }
 
 

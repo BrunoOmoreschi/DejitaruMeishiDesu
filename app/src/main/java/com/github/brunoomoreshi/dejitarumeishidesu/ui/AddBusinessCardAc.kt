@@ -20,6 +20,11 @@ class AddBusinessCardAc : AppCompatActivity() {
         binding.ibClose.setOnClickListener {
             finish()
         }
+
+        binding.btConfirm.setOnClickListener{
+
+        }
+
     }
 
 

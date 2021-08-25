@@ -38,7 +38,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/ic_icons8_mais"
+        android:background="?attr/actionBarItemBackground"
         android:backgroundTint="@color/material_on_primary_disabled"
         android:contentDescription="@string/ibAdd_desc"
         android:clickable="true"
@@ -47,6 +47,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_icons8_mais"
+
         />
 
 

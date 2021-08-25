@@ -15,7 +15,7 @@
         android:layout_gravity="top|start"
         android:layout_marginStart="9dp"
         android:layout_marginTop="9dp"
-        android:background="@mipmap/closethis_foreground"
+        android:background="?attr/actionBarItemBackground"
         android:backgroundTint="@color/material_on_primary_disabled"
         android:contentDescription="@string/btFechar_desc"
         android:scaleType="centerInside"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etEmail" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/btConfirm"
         android:layout_width="378dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"

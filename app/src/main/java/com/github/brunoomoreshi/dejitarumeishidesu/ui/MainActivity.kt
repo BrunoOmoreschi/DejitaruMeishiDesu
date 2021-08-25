@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 /*
-* * Eu sei que o material design recomenda uso de FAB mas queria dar uma investida num app bunitão dessa vez ;-)
+*  Eu sei que o material design recomenda uso de FAB mas queria dar uma investida num app bunitão dessa vez ;-)
 * * Facilita a gestão de nullabity e elimina a necessidade de procurar usando o findViewById(R.id.xxxxxx), segundo a aula é recomendado pelo google.
 *
 * * Codigos para multithread (bkp):
