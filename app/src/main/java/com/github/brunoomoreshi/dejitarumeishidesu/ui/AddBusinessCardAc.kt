@@ -5,12 +5,22 @@ import androidx.appcompat.app.AppCompatActivity
 import com.github.brunoomoreshi.dejitarumeishidesu.databinding.AddbusinessbardacBinding
 
 
-class AddbusinessbardacBinding : AppCompatActivity() {
+class AddBusinessCardAc : AppCompatActivity() {
 
    private val binding by lazy {AddbusinessbardacBinding.inflate(layoutInflater)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        insertListeners()
     }
+
+
+    private fun insertListeners() {
+        binding.ibClose.setOnClickListener {
+            finish()
+        }
+    }
+
+
 }
