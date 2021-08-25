@@ -2,16 +2,15 @@ package com.github.brunoomoreshi.dejitarumeishidesu.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.github.brunoomoreshi.dejitarumeishidesu.R
+import com.github.brunoomoreshi.dejitarumeishidesu.databinding.AddbusinessbardacBinding
 
 
+class AddbusinessbardacBinding : AppCompatActivity() {
 
-class AddBusinessCardAc : AppCompatActivity() {
-
-    //private val binding by lazy { AddBusinessCardAc.inflate(layoutInflater)}
+   private val binding by lazy {AddbusinessbardacBinding.inflate(layoutInflater)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.AddBusinessCardAc)
+        setContentView(binding.root)
     }
 }

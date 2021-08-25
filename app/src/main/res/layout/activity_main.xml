@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_title"
         tools:itemCount="8"
         tools:layout_editor_absoluteX="16dp"
-        tools:listitem="@layout/item_bc" />
+        tools:listitem="@layout/itembc" />
 
     <ImageButton
         android:id="@+id/ib_Close"
