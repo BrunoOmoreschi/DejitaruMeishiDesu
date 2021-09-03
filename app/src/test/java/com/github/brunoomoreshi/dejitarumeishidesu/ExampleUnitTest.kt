@@ -19,17 +19,17 @@ class ExampleUnitTest {
     }
     @Test
     fun test_add_new_contact(){
-        TODO("to be implemented")
+        TODO("Teste de adição de contato")
     }
 
     @Test
     fun test_mockup_list(){
-        TODO("to be implemented")
+        TODO("Criação de lista Mockup")
     }
 
     @Test
     fun test_send_by_social_media(){
-        TODO("to be implemented")
+        TODO("Envio de cartão de visitas usando redes sociais")
     }
 }
 

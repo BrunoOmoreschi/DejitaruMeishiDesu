@@ -12,4 +12,6 @@
     <string name="etCompany_hint">Empresa</string>
     <string name="apelido_hint">Apelido</string>
     <string name="ibAdd_desc">Botão Adicionar</string>
+    <string name="addToast_Txt">Registro inserido com sucesso!</string>
+    <string name="toastImgSuccess_txt">Imagem capturada com sucesso!</string>
 </resources>
