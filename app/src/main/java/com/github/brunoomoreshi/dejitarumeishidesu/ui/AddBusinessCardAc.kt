@@ -22,6 +22,7 @@ class AddBusinessCardAc : AppCompatActivity() {
     }
 
     //Função step copiada de outro projeto pois o meu android studio não quer importar a função viewModels.
+    //TODO criar um pacote com esse código para que fique DRY
     public inline fun <reified VM : ViewModel> ComponentActivity.viewModels(
         noinline factoryProducer: (() -> ViewModelProvider.Factory)? = null
     ): Lazy<VM> {
